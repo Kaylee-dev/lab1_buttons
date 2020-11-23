@@ -8,7 +8,7 @@ body{
 	text-align: center;
 	width: 600px;
 	height: 600px;
-	border: solid black 10px;
+	border: solid black 15px;
 	position: relative;
 	background-image: url("images/bg0.jpg");
 }
@@ -24,7 +24,7 @@ body{
 }
 
 button{
-	margin-top: 10px;
+	margin-top: 20px;
 	border: solid black 2px;
 	border-radius: 6px;
 	font-size: 20px;
@@ -32,4 +32,8 @@ button{
 	height: 50px;
 	color: white;
 	background-color: #DB7093;
+}
+
+button:hover{
+	background-color: #FFB6C1;
 }
