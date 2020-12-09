@@ -10,6 +10,7 @@ var count2 = 0;
 var button3 = document.getElementById("button3");
 var count3 = 0;
 
+
 button1.onclick = function() {
 	if (button1.style.backgroundColor != "red") {
 		button1.style.backgroundColor = "#66ff99";
