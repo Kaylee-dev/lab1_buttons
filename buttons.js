@@ -13,6 +13,7 @@ var count3 = 0;
 
 button1.onclick = function() {
 	if (button1.style.backgroundColor != "red") {
+		// function word alleen uitgevoerd als die rood is, dus als er al op geklikt is. Anders word de function niet uitgevoerd.
 		button1.style.backgroundColor = "#66ff99";
 		button2.style.backgroundColor = "#66ff99";
 		button3.style.backgroundColor = "#66ff99";
